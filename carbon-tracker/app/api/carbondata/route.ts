@@ -1,0 +1,12 @@
+import { carbonData } from "@/app/carbon-data"
+
+export default async function GET(){
+  
+   return new Response (JSON.stringify(carbonData), {
+        status: 200,
+        headers: {
+                'Content-Type': 'application/json',
+    }
+   })
+  
+};

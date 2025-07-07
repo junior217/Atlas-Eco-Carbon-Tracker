@@ -1,0 +1,120 @@
+{
+  "year": 2024,
+  "total_emissions_mtco2": 37500,
+  "sectors": [
+    {
+      "sector": "Energy",
+      "emissions_mtco2": 14000,
+      "activities": [
+        {
+          "activity": "Electricity & Heat Production",
+          "emissions_mtco2": 9200
+        },
+        {
+          "activity": "Manufacturing & Construction",
+          "emissions_mtco2": 2800
+        },
+        {
+          "activity": "Fugitive Emissions",
+          "emissions_mtco2": 2000
+        }
+      ]
+    },
+    {
+      "sector": "Transportation",
+      "emissions_mtco2": 7200,
+      "activities": [
+        {
+          "activity": "Passenger Cars",
+          "emissions_mtco2": 3400
+        },
+        {
+          "activity": "Heavy Trucks",
+          "emissions_mtco2": 1200
+        },
+        {
+          "activity": "Light Commercial Vehicles",
+          "emissions_mtco2": 700
+        },
+        {
+          "activity": "Aviation",
+          "emissions_mtco2": 1100
+        },
+        {
+          "activity": "Shipping",
+          "emissions_mtco2": 600
+        },
+        {
+          "activity": "Rail",
+          "emissions_mtco2": 100
+        },
+        {
+          "activity": "Two/Three-Wheelers",
+          "emissions_mtco2": 100
+        }
+      ]
+    },
+    {
+      "sector": "Industry",
+      "emissions_mtco2": 6800,
+      "activities": [
+        {
+          "activity": "Cement",
+          "emissions_mtco2": 1600
+        },
+        {
+          "activity": "Iron & Steel",
+          "emissions_mtco2": 2300
+        },
+        {
+          "activity": "Chemicals",
+          "emissions_mtco2": 1600
+        },
+        {
+          "activity": "Other Industrial",
+          "emissions_mtco2": 1300
+        }
+      ]
+    },
+    {
+      "sector": "Agriculture",
+      "emissions_mtco2": 6200,
+      "activities": [
+        {
+          "activity": "Livestock (methane)",
+          "emissions_mtco2": 2800
+        },
+        {
+          "activity": "Rice Cultivation",
+          "emissions_mtco2": 800
+        },
+        {
+          "activity": "Agricultural Soils",
+          "emissions_mtco2": 1600
+        },
+        {
+          "activity": "Field Burning & Waste",
+          "emissions_mtco2": 1000
+        }
+      ]
+    },
+    {
+      "sector": "Residential & Commercial",
+      "emissions_mtco2": 3300,
+      "activities": [
+        {
+          "activity": "Heating & Cooking",
+          "emissions_mtco2": 1800
+        },
+        {
+          "activity": "Lighting & Appliances",
+          "emissions_mtco2": 1000
+        },
+        {
+          "activity": "Waste Disposal",
+          "emissions_mtco2": 500
+        }
+      ]
+    }
+  ]
+}
