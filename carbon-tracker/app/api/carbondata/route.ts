@@ -1,6 +1,6 @@
-import { carbonData } from "@/app/carbon-data"
+import { carbonData } from "../../carbon-data"
 
-export default async function GET(){
+export async function GET(){
   
    return new Response (JSON.stringify(carbonData), {
         status: 200,
@@ -10,3 +10,4 @@ export default async function GET(){
    })
   
 };
+
