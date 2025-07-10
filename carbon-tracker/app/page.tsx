@@ -1,22 +1,20 @@
 import Image from "next/image";
 
 export default async function Home() {
-  const carbonData =  await fetch('https://effective-cod-vwp7vvw5r47266pw.github.dev/api/carbondata', {cache: 'no-cache'})
+  const carbonData =  await fetch('https://effective-cod-vwp7vvw5r47266pw-3000.app.github.dev/api/carbondata')
   
-   if (!carbonData.ok) {
-    const errorText = await carbonData.text(); // grab HTML or error message
-    console.error('Fetch failed:', errorText);
-    throw new Error(`Failed to fetch carbon data: ${carbonData.status}`);
-  }
-
-  const carbonRes = await carbonData.json()
+  const res = await carbonData.json()
+  
 
   return (
     <>
-      <h1 className="text-2xl text-center font-semibold text-cyan-300">Carbon Footrpint Tracker</h1>
-      <div>
-        {carbonRes}
-      </div>
+     {res[0].sectors.map((cbData: any, index: any) => (
+    <div key={index}>
+      <p>Sector: {cbData.sector}</p>
+      <p>Emissions: {cbData.emissions_mtco2} MtCO₂</p>
+      <p>UnIT Emissions: {cbData.unit_emission}</p>
+    </div>
+  ))}
     </>
   );
 }
