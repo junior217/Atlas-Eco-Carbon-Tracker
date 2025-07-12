@@ -1,7 +1,7 @@
 import { use } from 'react';
 
 export async function CarbonData(){
-    const carbonDataList = await fetch('http://localhost:3000/api/carbondata');
+    const carbonDataList = await fetch('http://127.0.0.1:3000/api/carbondata');
     const carbonList = await carbonDataList.json();
 
     return carbonList
