@@ -5,7 +5,7 @@ import Link from "next/link";
 export default async function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900 p-4 ">
-      
+      <div className="flex items-center justify-center w-full max-w-md h-16 bg-gray-800 rounded-lg shadow-lg p-4 mb-10 hidden">
         <Image
           src="/public/logo.png"
           alt="logoimage"
@@ -13,15 +13,16 @@ export default async function Home() {
           width={20}
           height={20}
         ></Image>
+      </div>
       
 
       <div className="flex flex-col items-center justify-center w-full max-w-md h-[100%] bg-gray-100 rounded-lg shadow-lg p-6 mt-10 ">
         <Image
-          src="/"
+          src="/images/logo.png"
           alt="logoimage"
           className="object-cover justify-center"
-          width={20}
-          height={20}
+          width={100}
+          height={100}
         ></Image>
 
         <h1 className="text-4xl font-bold text-center mb-6">Carbon Tracker</h1>
