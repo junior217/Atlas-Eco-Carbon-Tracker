@@ -110,7 +110,7 @@ export default async function Home() {
         </form>
 
         <p className="text-xs text-center py-5 sm:text-base sm:text-left">By continuing, you agree to our Terms and Privacy Policy.</p>
-        <Link href="/signUp" className="text-blue-500 hover:underline text-xs justify-center text-center">
+        <Link href="/sign-up" className="text-blue-500 hover:underline text-xs justify-center text-center">
           Don't have an account? Sign Up
         </Link>
       </div>
