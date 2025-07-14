@@ -4,28 +4,30 @@ import Link from "next/link";
 
 export default async function Home() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900 p-4 ">
-      <div className="flex items-center justify-center w-full max-w-md h-16 bg-gray-800 rounded-lg shadow-lg p-4 mb-10 hidden">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900 p-4 sm:flex sm:flex-row sm:p-y-25 ">
+      <div className="flex items-center justify-center w-full max-w-md h-16 bg-gray-800 rounded-lg shadow-lg p-4 mb-10 ">
+        <h1 className="text-sm font-bold text-white mb-6 justify-left mb-20">"Measure Today, Sustain Tomorrow."</h1>
         <Image
           src="/public/logo.png"
           alt="logoimage"
-          className="object-cover"
+          className="object-cover hidden sm:visible sm:min-h-screen"
           width={20}
-          height={20}
+          height={100}
         ></Image>
       </div>
       
+      
 
-      <div className="flex flex-col items-center justify-center w-full max-w-md h-[100%] bg-gray-100 rounded-lg shadow-lg p-6 mt-10 ">
+      <div className="relative flex flex-col items-center justify-center w-full max-w-md h-[100%] bg-gray-100 rounded-lg shadow-lg p-6 mt-10 ">
         <Image
           src="/images/logo.png"
           alt="logoimage"
-          className="object-cover justify-center"
-          width={100}
-          height={100}
+          className="object-cover justify-center absolute -top-40"
+          width={250}
+          height={250}
         ></Image>
 
-        <h1 className="text-4xl font-bold text-center mb-6">Carbon Tracker</h1>
+        <h1 className="text-4xl font-bold text-center mb-6">Atlas Carbon Tracker</h1>
 
         <form action="" className="flex flex-col items-center space-y-4 p-5">
           <button className="btn bg-white text-black border-[#e5e5e5]">
