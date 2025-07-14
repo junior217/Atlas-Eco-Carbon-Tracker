@@ -1,5 +1,104 @@
 @import "tailwindcss";
 @plugin "daisyui";
+@tailwind utilities;
+
+/* 🌿 Custom Carbon Tracker Color Utilities */
+@layer utilities {
+  /* Background Colors */
+  .bg-carbon-primary {
+    background-color: #93e1d8; /* Light Cyan (globe) */
+  }
+
+  .bg-carbon-secondary {
+    background-color: #ce7b6c; /* Earthy Coral (leaf) */
+  }
+
+  .bg-carbon-accent {
+    background-color: #f2b5a6; /* Soft Coral (highlight) */
+  }
+
+  .bg-carbon-neutral {
+    background-color: #1f2937; /* Graphite Grey (text background) */
+  }
+
+  .bg-carbon-info {
+    background-color: #81d4fa; /* Info Blue */
+  }
+
+  .bg-carbon-success {
+    background-color: #66bb6a; /* Green */
+  }
+
+  .bg-carbon-warning {
+    background-color: #ffa726; /* Amber/Orange */
+  }
+
+  .bg-carbon-error {
+    background-color: #ef5350; /* Red */
+  }
+
+  /* Text Colors */
+  .text-carbon-primary {
+    color: #93e1d8;
+  }
+
+  .text-carbon-secondary {
+    color: #ce7b6c;
+  }
+
+  .text-carbon-accent {
+    color: #f2b5a6;
+  }
+
+  .text-carbon-neutral {
+    color: #1f2937;
+  }
+
+  .text-carbon-info {
+    color: #81d4fa;
+  }
+
+  .text-carbon-success {
+    color: #66bb6a;
+  }
+
+  .text-carbon-warning {
+    color: #ffa726;
+  }
+
+  .text-carbon-error {
+    color: #ef5350;
+  }
+
+  /* Border Colors */
+  .border-carbon-primary {
+    border-color: #93e1d8;
+  }
+
+  .border-carbon-secondary {
+    border-color: #ce7b6c;
+  }
+
+  .border-carbon-accent {
+    border-color: #f2b5a6;
+  }
+
+  .border-carbon-info {
+    border-color: #81d4fa;
+  }
+
+  .border-carbon-success {
+    border-color: #66bb6a;
+  }
+
+  .border-carbon-warning {
+    border-color: #ffa726;
+  }
+
+  .border-carbon-error {
+    border-color: #ef5350;
+  }
+}
 
 :root {
   --background: #ffffff;

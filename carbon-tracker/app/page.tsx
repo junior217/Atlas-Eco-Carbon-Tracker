@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default async function Home() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900 p-4 sm:flex sm:flex-row sm:p-y-25 ">
+    <div className="bg-carbon-secondary flex flex-col items-center justify-center min-h-screen p-4 sm:flex sm:flex-row sm:p-y-25 ">
       <div className="flex items-center justify-center w-full max-w-md h-16 bg-gray-800 rounded-lg shadow-lg p-4 mb-10 ">
         <h1 className="text-sm font-bold text-white mb-6 justify-left mb-20">"Measure Today, Sustain Tomorrow."</h1>
         <Image
@@ -27,7 +27,7 @@ export default async function Home() {
           height={250}
         ></Image>
 
-        <h1 className="text-4xl font-bold text-center mb-6">Atlas Carbon Tracker</h1>
+        <h1 className="text-carbon-primary text-4xl font-bold text-center mb-6">Atlas Carbon Tracker</h1>
 
         <form action="" className="flex flex-col items-center space-y-4 p-5">
           <button className="btn bg-white text-black border-[#e5e5e5]">
