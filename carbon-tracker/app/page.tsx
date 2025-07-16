@@ -42,7 +42,7 @@ export default async function Home() {
             <div className="card bg-base-100 shadow-xl">
               <figure className="px-10 pt-10">
                 <Image
-                  src="/"
+                  src="/images/dataInsight.png"
                   alt="Carbon Data"
                   width={400}
                   height={300}
@@ -57,7 +57,7 @@ export default async function Home() {
             <div className="card bg-base-100 shadow-xl">
               <figure className="px-10 pt-10">
                 <Image
-                  src="/"
+                  src="/images/ecoSusTips.png"
                   alt="Carbon Data"
                   width={400}
                   height={300}
@@ -72,7 +72,7 @@ export default async function Home() {
             <div className="card bg-base-100 shadow-xl">
               <figure className="px-10 pt-10">
                 <Image
-                  src="/"
+                  src="/images/offsetImprove.png"
                   alt="Carbon Data"
                   width={400}
                   height={300}
@@ -87,7 +87,7 @@ export default async function Home() {
             <div className="card bg-base-100 shadow-xl">
               <figure className="px-10 pt-10">
                 <Image
-                  src="/"
+                  src="/images/mobileFriend.png"
                   alt="Carbon Data"
                   width={400}
                   height={300}
