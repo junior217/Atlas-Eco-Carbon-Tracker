@@ -3,8 +3,8 @@ import Link from "next/link";
 
 export default function LoginPage() {
   return (
-    <div className="bg-carbon-base flex flex-col items-center justify-center min-h-screen p-4 xl:flex xl:flex-row sm:p-y-25 sm:border-slate-900 ">
-      <div className="hidden xl:block xl:w-full xl:max-w-[300px] xl:min-h-[570px] bg-carbon-dark border-carbon-dark rounded-lg shadow-lg p-6">
+    <div className="bg-login flex flex-col items-center justify-center min-h-screen p-4 xl:flex xl:flex-row sm:p-y-25 sm:border-slate-900 ">
+      <div className="hidden xl:block xl:w-full xl:max-w-[300px] xl:h-[550px] xl:mt-20 bg-carbon-dark border-carbon-dark rounded-lg shadow-lg p-6">
 
       </div>
       
@@ -17,7 +17,7 @@ export default function LoginPage() {
           height={250}
         ></Image>
 
-        <h1 className="text-carbon-primary text-3xl font-bold text-center my-4 md:text-4xl xl:text-2xl">
+        <h1 className="text-carbon-dark text-3xl font-bold text-center my-4 md:text-4xl xl:text-2xl">
           Atlas Carbon Tracker
         </h1>
 

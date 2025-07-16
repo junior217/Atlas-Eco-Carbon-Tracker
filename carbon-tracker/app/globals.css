@@ -4,6 +4,16 @@
 
 /* 🌿 Custom Carbon Tracker Color Utilities */
 @layer utilities {
+
+  /* Background Images */
+  .bg-login {
+    background-image: url('/images/login-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+
   /* 🎨 Backgrounds */
   .bg-carbon-base {
     background-color: #EAF7F5;
