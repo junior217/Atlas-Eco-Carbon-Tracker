@@ -13,6 +13,16 @@
     background-repeat: no-repeat;
   }
 
+  .bg-home {
+    background-image: url('/images/homePage.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+
+
+
 
   /* 🎨 Backgrounds */
   .bg-carbon-base {
