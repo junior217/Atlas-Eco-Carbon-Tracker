@@ -6,29 +6,29 @@ export default async function Home() {
   return (
     <div className="bg-home flex flex-col items-center justify-center min-h-screen p-4 bg-gray-100">
       <div
-        className="hero min-h-screen"
+        className="hero min-h-[300px]"
         
       >
         <div className="hero-overlay"></div>
         <div className="hero-content text-neutral-content text-center">
           <div className="max-w-md">
-            <h1 className="mb-5 text-3xl font-bold">Track Your Carbon Footprint — One Action at a Time 🌱</h1>
-            <p className="mb-5">
+            <h1 className="mb-5 text-3xl font-bold text-carbon-accent">Track Your Carbon Footprint — One Action at a Time 🌱</h1>
+            <p className="mb-5 text-carbon-base">
              Know your impact. Visualize your emissions. Start building a cleaner, smarter future today.
             </p>
-            <button className="btn bg-carbon-dark border-carbon-dark text-carbon-base">Get Started</button>
+            <button className="btn bg-carbon-dark border-carbon-dark hover:btn-wide text-carbon-accent hover:bg-carbon-accent">Get Started</button>
           </div>
         </div>
       </div>
 
       <div className="w-full mx-10 flex flex-col items-center justify-center mt-10">
-        <h1 className="text-6xl text-slate-100">Key Features</h1>
+        <h1 className="text-6xl text-carbon-dark">Key Features</h1>
         <div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-10"> 
             <div className="card bg-base-100 shadow-xl">
               <figure className="px-10 pt-10">
                 <Image
-                  src="/"
+                  src="/images/realTrack.png"
                   alt="Carbon Data"
                   width={400}
                   height={300}
