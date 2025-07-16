@@ -1,23 +1,14 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export default function LoginPage(){
-    return (
-    <div className="bg-carbon-secondary flex flex-col items-center justify-center min-h-screen p-4 sm:flex sm:flex-row sm:p-y-25 ">
-      <div className="flex items-center justify-center w-full max-w-md h-16 bg-gray-800 rounded-lg shadow-lg p-4 mb-10 ">
-        <h1 className="text-sm font-bold text-white mb-6 justify-left mb-20">"Measure Today, Sustain Tomorrow."</h1>
-        <Image
-          src="/public/logo.png"
-          alt="logoimage"
-          className="object-cover hidden sm:visible sm:min-h-screen"
-          width={20}
-          height={100}
-        ></Image>
+export default function LoginPage() {
+  return (
+    <div className="bg-carbon-base flex flex-col items-center justify-center min-h-screen p-4 xl:flex xl:flex-row sm:p-y-25 sm:border-slate-900 ">
+      <div className="hidden xl:block xl:w-full xl:max-w-[300px] xl:min-h-[570px] bg-carbon-dark border-carbon-dark rounded-lg shadow-lg p-6">
+
       </div>
       
-      
-
-      <div className="relative flex flex-col items-center justify-center w-full max-w-md h-[100%] bg-gray-100 rounded-lg shadow-lg p-6 mt-10 ">
+      <div className="relative flex flex-col items-center justify-center w-full max-w-md h-[100%] bg-carbon-base border-carbon-dark rounded-lg shadow-lg p-6 mt-10 ">
         <Image
           src="/images/logo.png"
           alt="logoimage"
@@ -26,7 +17,9 @@ export default function LoginPage(){
           height={250}
         ></Image>
 
-        <h1 className="text-carbon-primary text-4xl font-bold text-center mb-6">Atlas Carbon Tracker</h1>
+        <h1 className="text-carbon-primary text-3xl font-bold text-center my-4 md:text-4xl xl:text-2xl">
+          Atlas Carbon Tracker
+        </h1>
 
         <form action="" className="flex flex-col items-center space-y-4 p-5">
           <button className="btn bg-white text-black border-[#e5e5e5]">
@@ -106,17 +99,25 @@ export default function LoginPage(){
               title="Must be more than 8 characters, including number, lowercase letter, uppercase letter"
             />
           </label>
-          <button type="submit" className="btn btn-primary my-2 p-5">
+          <button
+            type="submit"
+            className="btn bg-carbon-accent my-2 p-5 text-carbon-base"
+          >
             Log In
           </button>
         </form>
 
-        <p className="text-xs text-center py-5 sm:text-base sm:text-left">By continuing, you agree to our Terms and Privacy Policy.</p>
-        <Link href="/sign-up" className="text-blue-500 hover:underline text-xs justify-center text-center">
+        <p className="text-xs text-center py-5 sm:text-base sm:text-left">
+          By continuing, you agree to our Terms and Privacy Policy.
+        </p>
+        <Link
+          href="/sign-up"
+          className="text-blue-500 hover:underline text-xs justify-center text-center"
+        >
           Don't have an account? Sign Up
         </Link>
       </div>
     </div>
-    // cabron List Claro 
+    // cabron List Claro
   );
 }
