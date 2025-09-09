@@ -2,7 +2,7 @@
 
 import { use } from "react"
 import SectorLookup from "./sectorLookup"
-import { CarbonData, getSectorData } from "../lib/utils/getCarbonData"
+import { CarbonData, getSectorData } from "../../lib/getCarbonData"
 
 
 
