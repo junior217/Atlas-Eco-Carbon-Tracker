@@ -44,7 +44,7 @@ export default function LoginPage() {
             </select>
             
             {/* This is where ill display the different forms using the useState function */}
-            {entityType === 'Personal' ? personalSignUpFields() : <div>Company Form Coming Soon!</div>}
+            {entityType === 'Personal' ? personalSignUpFields() : companySignUpFields()}
         </div>
 
 
