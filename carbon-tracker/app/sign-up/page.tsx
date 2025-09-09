@@ -1,4 +1,4 @@
-'use client'; // This is a client component
+"use client"; // This is a client component
 import Image from "next/image"; // Next.js optimized image component
 import Link from "next/link"; // Next.js client-side navigation
 import { useState } from "react";
@@ -6,11 +6,11 @@ import personalSignUpFields from "../components/persSignUp";
 import companySignUpFields from "../components/coSignUp";
 
 export default function LoginPage() {
-  const [entityType, setEntityType] = useState('Personal');
+  const [entityType, setEntityType] = useState("Personal");
   const handleEntityChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
     setEntityType(e.target.value);
-  }
- 
+  };
+
   return (
     // Main container for the login page, with background and flex layout
     <div className="bg-login flex flex-col items-center justify-center min-h-screen p-4 xl:flex xl:flex-row sm:p-y-25 sm:border-slate-900 ">
@@ -36,17 +36,22 @@ export default function LoginPage() {
         </h1>
 
         {/* Login form */}
-        <div> 
-            <select defaultValue="Personal" onChange={handleEntityChange} className="select select-neutral py-2 ">
-                <option disabled={true}>Entity Type</option>
-                <option>Personal</option>
-                <option>Company</option>
-            </select>
-            
-            {/* This is where ill display the different forms using the useState function */}
-            {entityType === 'Personal' ? personalSignUpFields() : companySignUpFields()}
-        </div>
+        <div>
+          <select
+            defaultValue="Personal"
+            onChange={handleEntityChange}
+            className="select select-neutral py-2 "
+          >
+            <option disabled={true}>Entity Type</option>
+            <option>Personal</option>
+            <option>Company</option>
+          </select>
 
+          {/* This is where ill display the different forms using the useState function */}
+          {entityType === "Personal"
+            ? personalSignUpFields()
+            : companySignUpFields()}
+        </div>
 
         {/* Terms and privacy policy notice */}
         <p className="text-xs text-center py-5 sm:text-base sm:text-left">
@@ -55,7 +60,7 @@ export default function LoginPage() {
 
         {/* Link to sign up page */}
         <Link
-          href="/sign-up"
+          href="/log-in"
           className="text-blue-500 hover:underline text-xs justify-center text-center"
         >
           Already have an account? Log-In
