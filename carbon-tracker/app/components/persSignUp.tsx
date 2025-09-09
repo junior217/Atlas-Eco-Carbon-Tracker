@@ -134,7 +134,7 @@ export default function personalSignUpFields(){
             type="submit"
             className="btn bg-carbon-accent my-2 p-5 text-carbon-base"
           >
-            Log In
+            Sign Up
           </button>
         </form>
 

@@ -42,11 +42,14 @@ export default function companySignUpFields() {
         <label className="input validator">
           <input type="text" placeholder="Company Name" className="input-sm" />
         </label>
-        <select defaultValue="United States of America" className="select">
+        <select defaultValue="Asia-Pacific" className="select">
           <option disabled={true}>Select a Region</option>
-          <option>Crimson</option>
-          <option>Amber</option>
-          <option>Velvet</option>
+          <option>Asia-Pacific</option>
+          <option>North America</option>
+          <option>Europe</option>
+          <option>Latin America</option>
+          <option>Africa</option>
+          <option>Middle East</option>
         </select>
 
         {/* Email input field with icon */}
@@ -137,7 +140,7 @@ export default function companySignUpFields() {
           type="submit"
           className="btn bg-carbon-accent my-2 p-5 text-carbon-base"
         >
-          Log In
+          Sign Up
         </button>
       </form>
     </>

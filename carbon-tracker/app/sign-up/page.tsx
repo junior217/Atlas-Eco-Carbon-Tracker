@@ -58,7 +58,7 @@ export default function LoginPage() {
           href="/sign-up"
           className="text-blue-500 hover:underline text-xs justify-center text-center"
         >
-          Don't have an account? Sign Up
+          Already have an account? Log-In
         </Link>
       </div>
     </div>
