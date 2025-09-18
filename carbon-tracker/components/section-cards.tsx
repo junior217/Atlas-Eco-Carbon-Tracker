@@ -104,6 +104,133 @@ export function SectionCards() {
           <div className="text-muted-foreground">3.77%</div>
         </CardFooter>
       </Card>
+      <Card className="@container/card">
+        <CardHeader>
+          <CardTitle className="text-2xl font-bold">Industry</CardTitle>
+          <CardDescription className="mt-2 flex items-center gap-2 text-3xl font-bold">
+            6800 MtCO2
+            <Badge variant="secondary" className="rounded-md px-2 py-1 text-sm">
+              +7.2%
+            </Badge>
+          </CardDescription>
+        </CardHeader>
+        <CardContent>
+          <div className="flex flex-col gap-2">
+            <h1 className="text-sm text-muted-foreground">
+              Activities:{" "}
+              <span className="font-slate-400 text-xs">Emissions_Mtco2</span>
+            </h1>
+            <ul>
+              <li className="flex justify-between text-sm">
+                <span>Cement</span>
+                <span>1600</span>
+              </li>
+              <li className="flex justify-between text-sm">
+                <span>Iron & Steel</span>
+                <span>2300</span>
+              </li>
+              <li className="flex justify-between text-sm">
+                <span>Chemicals</span>
+                <span>1600</span>
+              </li>
+              <li className="flex justify-between text-sm">
+                <span>Other Industrial</span>
+                <span>1300</span>
+              </li>
+            </ul>
+          </div>
+        </CardContent>
+        <CardFooter className="flex-col items-start gap-1.5 text-sm">
+          <div className="line-clamp-1 flex gap-2 font-medium">
+            Global Yearly Change <IconTrendingDown className="size-4" />
+          </div>
+          <div className="text-muted-foreground">4.77%</div>
+        </CardFooter>
+      </Card>
+      <Card className="@container/card">
+        <CardHeader>
+          <CardTitle className="text-2xl font-bold">Agriculture</CardTitle>
+          <CardDescription className="mt-2 flex items-center gap-2 text-3xl font-bold">
+            6200 MtCO2
+            <Badge variant="secondary" className="rounded-md px-2 py-1 text-sm">
+              +6.2%
+            </Badge>
+          </CardDescription>
+        </CardHeader>
+        <CardContent>
+          <div className="flex flex-col gap-2">
+            <h1 className="text-sm text-muted-foreground">
+              Activities:{" "}
+              <span className="font-slate-400 text-xs">Emissions_Mtco2</span>
+            </h1>
+            <ul>
+              <li className="flex justify-between text-sm">
+                <span>Livestock (methane)</span>
+                <span>2800</span>
+              </li>
+              <li className="flex justify-between text-sm">
+                <span>Rice Cultivation</span>
+                <span>800</span>
+              </li>
+              <li className="flex justify-between text-sm">
+                <span>Agricultural Soils</span>
+                <span>1600</span>
+              </li>
+              <li className="flex justify-between text-sm">
+                <span>Field Burning & Waste</span>
+                <span>1000</span>
+              </li>
+            </ul>
+          </div>
+        </CardContent>
+        <CardFooter className="flex-col items-start gap-1.5 text-sm">
+          <div className="line-clamp-1 flex gap-2 font-medium">
+            Global Yearly Change <IconTrendingDown className="size-4" />
+          </div>
+          <div className="text-muted-foreground">5.77%</div>
+        </CardFooter>
+      </Card>
+      <Card className="@container/card">
+        <CardHeader>
+          <CardTitle className="text-2xl font-bold">
+            Residential & Commercial
+          </CardTitle>
+          <CardDescription className="mt-2 flex items-center gap-2 text-3xl font-bold">
+            3300 MtCO2
+            <Badge variant="secondary" className="rounded-md px-2 py-1 text-sm">
+              +4.2%
+            </Badge>
+          </CardDescription>
+        </CardHeader>
+        <CardContent>
+          <div className="flex flex-col gap-2">
+            <h1 className="text-sm text-muted-foreground">
+              Activities:{" "}
+              <span className="font-slate-400 text-xs">Emissions_Mtco2</span>
+            </h1>
+            <ul>
+              <li className="flex justify-between text-sm">
+                <span>Heating & Cooking</span>
+                <span>1800</span>
+              </li>
+              <li className="flex justify-between text-sm">
+                <span>Lighting & Appliances</span>
+                <span>1000</span>
+              </li>
+              <li className="flex justify-between text-sm">
+                <span>Waste Disposal</span>
+                <span>500</span>
+              </li>
+            </ul>
+          </div>
+        </CardContent>
+        <CardFooter className="flex-col items-start gap-1.5 text-sm">
+          <div className="line-clamp-1 flex gap-2 font-medium">
+            Global Yearly Change <IconTrendingDown className="size-4" />
+          </div>
+          <div className="text-muted-foreground">3.77%</div>
+        </CardFooter>
+      </Card>
     </div>
   );
 }
